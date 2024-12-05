@@ -1,0 +1,113 @@
+/* Estilo Geral */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #ffffff;
+}
+
+header {
+    background-color: #e63946;
+    background-image: url(/assets/img/powerfundo.jpg);
+    color: white;
+    text-align: center;
+    padding: 20px 10px;
+}
+
+h1, h2 {
+    margin: 0;
+}
+
+nav {
+    text-align: center;
+    margin: 20px 0;
+}
+
+main {
+    background-image: url(/assets/img/power-rangers-mmpr.gif);
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px 5px 5px 5px;
+}
+img {
+    margin-top: 3px;
+    border-radius: 7px 7px 7px 7px;
+    box-shadow: #c7bebf00 0px 0px 10px;
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    border-radius: 7px 7px 7px 7px;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+p {
+    line-height: 1.6;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    background-color: #d32a2a;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    box-shadow: #d62839 0px 0px 10px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+/* Botões */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #e63946;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.button:hover {
+    background-color: #d62839;
+    transform: scale(1.05);
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    header, footer {
+        text-align: center;
+    }
+
+    nav a {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .button {
+        padding: 15px;
+        font-size: 1.2em;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.5em;
+    }
+
+    p {
+        font-size: 1em;
+    }
+
+    .button {
+        padding: 10px;
+        font-size: 1em;
+    }
+}
