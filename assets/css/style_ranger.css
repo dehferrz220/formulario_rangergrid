@@ -9,7 +9,7 @@ body {
 
 header {
     background-color: #e63946;
-    background-image: url(/assets/img/powerfundo.jpg);
+    background-image: url(.../img/powerfundo.jpg);
     color: white;
     text-align: center;
     padding: 20px 10px;
