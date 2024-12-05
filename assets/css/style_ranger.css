@@ -24,6 +24,10 @@ nav {
     margin: 20px 0;
 }
 
+#page_after{
+    color: var(--texto);
+    font-size: 1.8em;
+    }
 main {
     background-image: url(/assets/img/power-rangers-mmpr.gif);
     padding: 20px;
